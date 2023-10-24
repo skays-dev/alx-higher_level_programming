@@ -17,7 +17,7 @@ class Node:
     @property
     def data(self):
         """Return data stored in the node."""
-        return (self.__data)
+        return self.__data
 
     @data.setter
     def data(self, value):
@@ -95,3 +95,4 @@ class SinglyLinkedList:
             node = node.next_node
         new_node.next_node = node.next_node
         node.next_node = new_node
+        
