@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 class Node:
     """Define a node of a singly linked list."""
 
@@ -50,6 +51,7 @@ class Node:
         if not isinstance(value, Node) and value is not None:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
+
 
 class SinglyLinkedList:
     """Define a singly linked list."""
